@@ -1,0 +1,48 @@
+<!-- Kommentar -->
+<!DOCTYPE html> <!-- Typ des Dokuments: hallo, ich bin ein HTML5 Dokument -->
+<html lang="de"> <!-- html Element (Elternelement / Root / Wurzelelement) -->
+    <head> <!-- Dokumenteigenschaften und Attribute usw. -->
+        <title>Meine erste HTML Seite</title> <!-- Seitentitel -->
+        <meta charset="UTF-8"> <!-- Zeichencodierung -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Definiert die max. Anzeigefläche als 100% (responsivness) -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            /*Mein Stylesheet*/
+        </style>
+
+    </head> <!-- Alles im head ist für den Benutzer nicht direkt sichtbar -->
+    <!-- Ab hier, im Körper der Seite, ist für den Besucher alles sichtbar -->
+    <body>
+        <section style="background: gainsboro"> <!-- 1. Sektion -->
+            <header> <!-- Jede Sektion hat einen Header -->
+                <nav>
+                    ÜBER MICH | PROJEKTE | KONTAKT
+                </nav>
+                <h1>Über mich</h1>
+            </header>
+
+            <article> 
+                <h3 class="titel" id="haupttitel">Filip Lakic, ein junger Informatiker auf der Suche nach der Wahrheit.</h3>
+                <p> 
+                    Auf dieser Seite gibt es ein paar Infos über mich. Ich bin 15 Jahre alt und wohne in St.Gallen. Meine Hobbys sind Basketball spielen und Musik machen.
+                    Ich bin in der Ausbildung zum Informatiker EFZ Fachrichtung Applikationsentwicklung, weil ich immer schon interessiert war an technischen Geräten und mich das Programmieren fasziniert. 
+                </p>
+                <figure>
+                    <figcaption>
+                        Meine Lieblingsautomarke:
+                    </figcaption>
+                    <img src="images/AudiLogo.jpg" alt="Audi Logo">
+                </figure>
+
+                <!-- <aside> Seitenleiste rechts</aside> -->
+            </article>
+
+            <footer> 
+                Ende der Seite 
+            </footer>
+        </section>
+    </body>
+</html>

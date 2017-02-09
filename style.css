@@ -1,0 +1,13 @@
+/* Meine Stylesheetdatei */
+
+html {
+    height: 101%;
+}     
+
+footer {
+    background: yellowgreen;
+}
+
+section {
+    background: gainsboro;
+}
