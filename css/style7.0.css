@@ -64,7 +64,6 @@ body {
 }
 
 h1 { font-size: 150%; }
-
 h2 { font-size: 130%; }
 
 address {
@@ -78,3 +77,39 @@ address {
 .padding { 
     padding: 20px; 
 } /* Der Innenabstand, später mehr dazu */
+
+a:hover, a:focus {
+    border-bottom: 1px solid #d90000; /* Hyperlinks unterstreichen */
+}
+a:active {
+    color: white;
+    background-color: #d90000;
+}
+a { text-decoration: none; outline: none; text-decoration: none; }
+a:link { color: #d90000; }
+a:visited { color: #cc6666; }
+
+.center { text-align: center; } /* Text zentriert */
+
+#textbereich {
+    height: 75px;
+}
+
+div#textbereich a {
+    color: green;
+    border-bottom: 1px dotted green;
+}
+
+div#textbereich a:hover,
+div#textbereich a:focus {
+    border-bottom: 1px solid green;
+}
+
+div#textbereich a:active {
+    color: white;
+    background-color: green;
+}
+
+div#textbereich a:visited {
+    color: #444;
+}
