@@ -1,0 +1,12 @@
+/* Mein Stlye */
+
+
+
+body {	
+    background-color: #8c8c8c; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+}
+
+#header > p > span {   
+    color: #d90000;
+}

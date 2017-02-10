@@ -1,8 +1,40 @@
 /* Meine Stylesheetdatei */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+article > figure > img {   
+    border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+    min-width: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {    
+    font-family: 'Lobster';
+}  
+
+body {	
+    background-color: #8c8c8c; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+}
+
+#header > p > span {   
+    color: #d90000;
+}
+
+#wrapper {  
+    max-width: 75%;
+    margin: 30px auto;
+}
+
+figure {    
+    margin:  30px 500px;
+}
 
 html {
     height: 101%;
-}     
+}
 
 footer {
     background: yellowgreen;
