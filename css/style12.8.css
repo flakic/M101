@@ -1,0 +1,75 @@
+/*Mein Stylesheet zum Auftrag 12.8*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+h1 { font-size: 2rem; font-family: 'Roboto';}
+h2 { font-size: 1.9rem; font-family: 'Roboto';}
+h3 { font-size: 1.8rem; font-family: 'Roboto';}
+h4 { font-size: 1.7rem; font-family: 'Roboto';}
+h5 { font-size: 1.6rem; font-family: 'Roboto';}
+h6 { font-size: 1.5rem; font-family: 'Roboto';}
+p { font-size: 1rem; font-family: 'Roboto';}
+a { font-size: 0.8rem; font-family: 'Roboto';}
+
+#header {   
+    background-color: #3949AB;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 100;
+}
+
+.abstand {  
+    margin-right: 30px;
+}
+
+.inline {   
+    display: inline-block;
+}
+
+.rechtsbuendig {    
+    text-align: right;
+}
+
+nav a { 
+    color: white;
+    text-decoration: none;
+}
+
+nav {   
+    text-align: right;
+    float: right;
+    margin-top: 15px;
+}
+
+figure {   
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#wallpaper {   
+    width: 100%;
+}
+
+#body { 
+    background: gainsboro;
+}
+
+#main { 
+    width: 70%;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    background-color: white;
+
+}
+
+#article {  
+    padding-left: 30px;
+    padding-right: 30px;
+}

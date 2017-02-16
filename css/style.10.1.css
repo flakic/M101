@@ -1,0 +1,194 @@
+/*Mein Stylesheet zu Auftrag 10.1*/
+
+#container {
+    background-color: white;
+    color: black;
+    width: 70%;	/* Optional-> width: 960px; */
+    border-radius: 7px;	/* Ecken abgerundet */
+    margin-top: 30px;
+    margin-right: auto; /* Abstand rechts */
+    margin-bottom: 10px;
+    margin-left: auto; /* Abstand links */
+}
+
+footer {
+    padding-top: 20px; /* unterhalb Rahmenlinie */
+    border-top: 1px dotted #8c8c8c; /* Linie oben */
+    margin-top: 20px; /* oberhalb Linie */
+}
+
+address {
+    margin-top: 20px;
+}
+
+ul li { list-style-type: square; }
+
+/* Unterschiedliche Nummerierung bei geordneten Listen */
+ol li { list-style-type: decimal; }
+ol ol li { list-style-type: lower-alpha; }
+
+/* Navigationsbereich */
+nav {
+    border-bottom: 1px dotted #ccc;
+    border-top: 1px dotted #ccc;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+
+/* Listenelemente */
+nav li {	
+    display: inline; /* li nebeneinander anzeigen */
+    list-style-type: none; /* ohne Aufzählungspunkte */
+}
+
+/* Navigationsleiste */
+nav ul { 
+    padding: 0; /* Einrückung links 15px */
+}
+
+/* Hyperlinks in der Navigationsleiste */
+nav a {
+    color: black;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover, nav a:focus {
+    color: #fff;
+    background-color: #d90000;
+}
+
+nav a:active {
+    color: weiss;
+    background-color: schwarz;
+    border-bottom-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mein Stlye */
+
+body {	
+    background-color: #8c8c8c; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+}
+
+header > p > span {   
+    color: #d90000;
+}
+
+p.infobox {
+    color: white;
+    background-color: #8c8c8c; /* Hintergrundfarbe setzen */
+    border: 3px solid #ecf7dd; /* Rahmen, dünne 3 Pixel Linie */
+    border-radius: 5px; /* Ecken abrunden */
+    text-align: center;	/* Schrift zentrieren */
+}
+
+section#container {
+    background-color: white;
+    color: black;
+    max-width: 70%;
+    border-radius: 7px;	/* Ecken abrunden */
+    box-shadow: 10px 10px 5px #888888; /* Leichter Schatten */
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+header {
+    background-color: white; /* Hinterrundfarbe weiss */
+    color: black; /* Schriftfarbe schwarz */
+    text-align: center; /* Schrift zentriert */
+    background-image: url(../images/top-secret.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#logo { 
+    background-color: white;
+    color: black;
+    height: auto; /* Responsive Image Höhe*/ 
+    width: 100%; /* Responsive Image Breite*/
+    max-width: 420px; /* Responsive Image maximale Breite */
+}
+
+body {
+     /* globale Schriftart- und Grösse setzen */
+    font-family: Roboto, Calibri, Arial, Helvetica, sans-serif;
+    font-size: 16px; /* Browser Fallback */
+    font-size: 1rem;
+    background: url('../images/hd.jpg');
+    height: 100%;
+    overflow: scroll;
+    background-image: url(../images/hd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Was passiert, wenn Sie diese Zeile entfernen? */
+    background-size: cover; /* Was passiert, wenn Sie diese Zeile entfernen? */
+    background-position: center; /* Was passiert, wenn Sie diese Zeile entfernen? */
+    background-origin: border-box;
+    background-clip: border-box;
+    
+}
+
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+
+address {
+    text-align: center; /* Text zentrieren */
+    font-size: 80%; /* etwas kleiner als der Rest */
+    font-style: normal;	/* normale Schrift, nicht kursiv */
+    letter-spacing: 2px; /* Abstand zwischen den Buchstaben */
+    line-height: 1.5; /* Zeilenabstand, ohne Einheit */
+}
+
+.padding { 
+    padding: 20px; 
+} /* Der Innenabstand, später mehr dazu */
+
+a:hover, a:focus {
+    border-bottom: 1px solid #d90000; /* Hyperlinks unterstreichen */
+}
+a:active {
+    color: white;
+    background-color: #d90000;
+}
+a { text-decoration: none; outline: none; text-decoration: none; }
+a:link { color: #d90000; }
+a:visited { color: #cc6666; }
+
+.center { text-align: center; } /* Text zentriert */
+
+#textbereich {
+    height: 75px;
+}
+
+div#textbereich a {
+    color: green;
+    border-bottom: 1px dotted green;
+}
+
+div#textbereich a:hover,
+div#textbereich a:focus {
+    border-bottom: 1px solid green;
+}
+
+div#textbereich a:active {
+    color: white;
+    background-color: green;
+}
+
+div#textbereich a:visited {
+    color: #444;
+}

@@ -1,0 +1,95 @@
+/* Mein Stylesheet zu Auftrag 9.1 */
+
+body{   
+    background: gainsboro;
+}
+
+#content {  
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+
+.eins {
+    background-color: #99B1D7;
+    display: inline;
+    padding: 20px;
+    color: white;
+}
+.zwei {
+    background-color: #456188;
+    width: 400px;
+    display: block;
+    padding: 20px;
+    color: white;
+}
+
+#inlineblock a { 
+    background-color: red; 
+    display: block;
+    width: 400px; 
+    color: white; 
+}
+
+#inlineblock ul { margin-top: 30px; }
+
+#inlineblock li { 
+    display: inline;
+    list-style-type: none;
+    color: white;
+    background-color: blue;
+    margin-left: 0;
+    padding: 10px;
+}
+
+.hide {  
+    display: none;
+}
+
+#first, #second, #third {
+    background-color: #9C27B0;
+    border: 3px solid #ECF7DD;
+    margin: 15px 0;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    width: 20%;
+    position: static;
+}
+
+#first {    
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    background-color: #E91E63;
+}
+
+.m30{    
+    margin: 30px;
+    padding: 30px;
+}
+
+#logo {  
+    max-width: 10%;
+}
+
+#section{ 
+    background-color: white !important;
+}
+
+#header {   
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+header p {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    padding: 5px 0;
+}

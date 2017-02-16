@@ -40,3 +40,82 @@ footer {
 section {
     background: gainsboro;
 }
+
+.hide{  
+    display: none;
+}
+
+.mr5{   
+    margin-right: 5px !important;
+}
+
+.mt10{  
+    margin-top: 10px;
+}
+
+#hyperlinks {   
+    text-align: center;
+}
+
+#hyperlinks a {  
+    text-decoration: none;
+}
+
+.btn {  
+    padding: 9px 20px;
+    border-radius: 3px;
+    opacity: 0.8; /* 20% transparent*/
+    
+}
+
+.btn:hover{ 
+    opacity: 1;
+}
+
+.btn-primary{   
+    background-color: red;
+    color: white;
+}
+
+.btn-info{  
+    background-color: blue;
+    color: white;
+}
+
+.btn-danger{    
+    background-color:#FF5722;
+    color: white;
+}
+
+.block{ 
+    display: block;
+}
+
+.inline {   
+    display: inline;
+}
+
+.text-center{   
+    text-align: center;
+}
+
+p { 
+    line-height: 1.5;
+}
+
+#box {  
+
+    background-color: lightgrey;
+    padding: 20px;
+    border: 4px solid olivedrab;
+    margin: 1rem;
+}
+
+.box1 { 
+    
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border: 4px solid white;
+
+}

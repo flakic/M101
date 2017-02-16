@@ -1,0 +1,200 @@
+/*Mein Stylesheet zu Auftrag 10.1*/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+#container {
+    background-color: white;
+    color: black;
+    width: 70%;	/* Optional-> width: 960px; */
+    border-radius: 7px;	/* Ecken abgerundet */
+    margin-top: 30px;
+    margin-right: auto; /* Abstand rechts */
+    margin-bottom: 10px;
+    margin-left: auto; /* Abstand links */
+}
+
+footer {
+    padding-top: 20px; /* unterhalb Rahmenlinie */
+    border-top: 1px dotted #8c8c8c; /* Linie oben */
+    margin-top: 20px; /* oberhalb Linie */
+}
+
+address {
+    margin-top: 20px;
+}
+
+ul li { list-style-type: square; }
+
+/* Unterschiedliche Nummerierung bei geordneten Listen */
+ol li { list-style-type: decimal; }
+ol ol li { list-style-type: lower-alpha; }
+
+/* Navigationsbereich */
+nav {
+    border-bottom: 1px solid #0266C8;
+    border-top: 1px dotted #ccc;
+    background-color: white;
+    text-align: right;
+    height: 50px;
+}
+
+/* Listenelemente */
+nav li {	
+    display: inline; /* li nebeneinander anzeigen */
+    list-style-type: none; /* ohne Aufzählungspunkte */
+    
+}
+
+/* Navigationsleiste */
+nav ul { 
+    padding: 0; /* Einrückung links 15px */
+}
+
+/* Hyperlinks in der Navigationsleiste */
+nav a {
+    color: black;
+    padding: 10px 25px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: white;
+    border-bottom: 1px solid #0266C8;
+}
+
+nav a:hover, nav a:focus, nav a:visited {
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-top: 4px solid #0266C8;
+    
+}
+
+nav a:active {
+    color: white;
+    background-color: black;
+    border-top: 4px solid #0266C8;
+}
+
+#home #navi01 a, #kontakt #navi02 a {
+    color:  black;
+    background-color: white;
+    border-bottom: 4px solid white;
+    border-top: 4px solid #0266C8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mein Stlye */
+
+body {	
+    background-color: #8c8c8c; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+}
+
+header > p > span {   
+    color: #d90000;
+}
+
+p.infobox {
+    color: white;
+    background-color: #0266C8; /* Hintergrundfarbe setzen */
+    border: 3px solid #ecf7dd; /* Rahmen, dünne 3 Pixel Linie */
+    border-radius: 5px; /* Ecken abrunden */
+    text-align: center;	/* Schrift zentrieren */
+}
+
+section#container {
+    background-color: white;
+    color: black;
+    max-width: 70%;
+    border-radius: 7px;	/* Ecken abrunden */
+    box-shadow: 10px 10px 5px #888888; /* Leichter Schatten */
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+header {
+    background-color: white; /* Hinterrundfarbe weiss */
+    color: black; /* Schriftfarbe schwarz */
+}
+#logo { 
+    background-color: white;
+    color: black;
+    height: auto; /* Responsive Image Höhe*/ 
+    width: 100%; /* Responsive Image Breite*/
+    max-width: 300px; /* Responsive Image maximale Breite */
+}
+
+body {
+     /* globale Schriftart- und Grösse setzen */
+    font-family: Roboto, Calibri, Arial, Helvetica, sans-serif;
+    font-size: 16px; /* Browser Fallback */
+    font-size: 1rem;
+    background: url('../images/hd.jpg');
+    height: 100%;
+    overflow: scroll;
+    background-image: url(../images/hd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Was passiert, wenn Sie diese Zeile entfernen? */
+    background-size: cover; /* Was passiert, wenn Sie diese Zeile entfernen? */
+    background-position: center; /* Was passiert, wenn Sie diese Zeile entfernen? */
+    background-origin: border-box;
+    background-clip: border-box;
+    
+}
+
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+
+address {
+    text-align: center; /* Text zentrieren */
+    font-size: 80%; /* etwas kleiner als der Rest */
+    font-style: normal;	/* normale Schrift, nicht kursiv */
+    letter-spacing: 2px; /* Abstand zwischen den Buchstaben */
+    line-height: 1.5; /* Zeilenabstand, ohne Einheit */
+}
+
+.padding { 
+    padding: 20px; 
+} /* Der Innenabstand, später mehr dazu */
+
+
+a { text-decoration: none; outline: none; text-decoration: none; }
+
+
+.center { text-align: center; } /* Text zentriert */
+
+#textbereich {
+    height: 75px;
+}
+
+div#textbereich a {
+    color: green;
+    border-bottom: 1px dotted green;
+}
+
+div#textbereich a:hover,
+div#textbereich a:focus {
+    border-bottom: 1px solid green;
+}
+
+div#textbereich a:active {
+    color: white;
+    background-color: green;
+}
+
+div#textbereich a:visited {
+    color: #444;
+}

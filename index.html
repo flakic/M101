@@ -15,16 +15,16 @@
 
     </head> <!-- Alles im head ist für den Benutzer nicht direkt sichtbar -->
     <!-- Ab hier, im Körper der Seite, ist für den Besucher alles sichtbar -->
-    <body>
+    <body id="kontakt">
         <section id="wrapper"> <!-- 1. Sektion -->
-            <header> <!-- Jede Sektion hat einen Header -->
+            <header class="hide"> <!-- Jede Sektion hat einen Header -->
                 <nav>
                     <i class="fa fa-superpowers" aria-hidden="true"></i> ÜBER MICH | PROJEKTE | KONTAKT <i class="fa fa-cogs" aria-hidden="true">   <i class="fa  fa-2x fa-power-off" aria-hidden="true"></i></i>
                 </nav>
                 <h1><i class="fa fa-money" aria-hidden="true"></i> Über mich <i class="fa fa-money" aria-hidden="true"></i></h1>
             </header>
 
-            <article> 
+            <article class="hide"> 
                 <h3 class="titel" id="haupttitel">Filip Lakic, ein junger Informatiker auf der Suche nach der Wahrheit.</h3>
 
                 <h1> <i class="fa fa-battery-empty" aria-hidden="true"></i> <i class="fa fa-battery-quarter" aria-hidden="true"></i> <i class="fa fa-battery-half" aria-hidden="true"></i> <i class="fa fa-battery-full" aria-hidden="true"></i> </h1>
@@ -39,12 +39,37 @@
                     </figcaption>
                     <img src="images/AudiLogo.jpg" alt="Audi Logo">
                 </figure>
-
-                <!-- <aside> Seitenleiste rechts</aside> -->
             </article>
 
-            <footer> 
-                Ende der Seite 
+                <section id="hyperlinks" class="hide">
+                    <a href="#" class="btn btn-primary text-center mr5">
+                        <i class="fa fa-envelope-o fa-lg mr5"></i>
+                        Abschicken
+                    </a>
+                    <a href="#" class=" btn btn-info text-center mr5">
+                        <i class="fa fa-gear fa-lg mr5"></i>
+                        Einstellungen
+                    </a>
+                    <a href="#" class=" btn btn-danger text-center mr5">
+                        <i class="fa fa-trash fa-lg mr5"></i>
+                        Löschen
+                    </a>
+
+                </section>
+
+                <!-- <aside> Seitenleiste rechts</aside> -->
+            
+
+            <main id="box">
+                <h1>Box-Modell</h1>
+                <div class="box1">
+                    <p>Gott zum Gruße! Die Trinkhalle verhaspeln des frivol Aue. Flickschusterei und Bagage festnageln halsstarrig Mumpitz. Der famos Prahlhans abkupfern. Müßiggang und Fernweh duellieren butterweich Kummerspeck. Der bräsig Kerbholz. Die bierernst Springinsfeld. Der Naseweis frohlocken die fidel Personenvereinzelungsanlage. Die halbstark Lude flanieren. Der Wildfang katzbuckeln das pfundig Schindluder. Kuppelei und Kohlroulade picheln fatal Naschkatze. Die hochgestochen Luder bemuttern. Dem einfältig Wuchtbrumme liebkosen. Das Hupfdohle lustwandeln die blindwütig Taugenichts. Ei der Daus!
+                    </p>
+                </div>
+            </main>
+
+            <footer class="mt10 hide"> 
+                Ende der Seite
             </footer>
         </section>
     </body>
